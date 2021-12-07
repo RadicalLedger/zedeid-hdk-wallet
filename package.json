@@ -9,7 +9,7 @@
     "test": "jest",
     "coverage": "jest --coverage",
     "lint": "eslint . --ext .ts",
-    "publish-version": "npm run-script build && npm publish --access public"
+    "publish-version": "npm publish --access public"
   },
   "author": "RTL",
   "license": "ISC",

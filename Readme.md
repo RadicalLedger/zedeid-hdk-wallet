@@ -6,7 +6,7 @@ A wrapper package of bip32 and bip39 to generate ethr decentralized IDs determin
 
 ### generateMnemonic
 
-import { generateMnemonic } from 'zedeid-hdk-wallet';
+import { generateMnemonic } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 generate random mnemonic.
 
@@ -20,7 +20,7 @@ generate random mnemonic.
 
 ### validateMnemonic
 
-import { validateMnemonic } from 'zedeid-hdk-wallet';
+import { validateMnemonic } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 validate mnemonic string.
 
@@ -35,7 +35,7 @@ validate mnemonic string.
 
 ### getSeedFromMnemonic
 
-import { getSeedFromMnemonic } from 'zedeid-hdk-wallet';
+import { getSeedFromMnemonic } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get seed from mnemonic words.
 
@@ -49,7 +49,7 @@ get seed from mnemonic words.
 
 ### publicKeyToETH
 
-import { publicKeyToETH } from 'zedeid-hdk-wallet';
+import { publicKeyToETH } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get ethereum address of a public key.
 
@@ -64,7 +64,7 @@ get ethereum address of a public key.
 
 ### getDID
 
-import { getDID } from 'zedeid-hdk-wallet';
+import { getDID } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get ethereum decentralized id of an Ethereum address.
 
@@ -78,7 +78,7 @@ get ethereum decentralized id of an Ethereum address.
 
 ### createRandomETHDID
 
-import { createRandomETHDID } from 'zedeid-hdk-wallet';
+import { createRandomETHDID } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 generate random Ethereum address.
 
@@ -92,7 +92,7 @@ none
 
 ### createETHDIDFromPrivateKey
 
-import { createETHDIDFromPrivateKey } from 'zedeid-hdk-wallet';
+import { createETHDIDFromPrivateKey } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get ethereum address from a private key.
 
@@ -106,7 +106,7 @@ get ethereum address from a private key.
 
 ### Wallet Class
 
-import Wallet from 'zedeid-hdk-wallet';
+import Wallet from '@zedeid-sdk/zedeid-hdk-wallet';
 
 #### Public methods
 
