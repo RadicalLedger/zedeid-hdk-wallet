@@ -1,18 +1,17 @@
 {
-  "name": "did-hd-wallet",
-  "version": "1.0.0",
+  "name": "@zedeid-sdk/zedeid-hdk-wallet",
+  "version": "0.0.9",
   "description": "Package to generate decentralized IDs deterministically",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "prebuild": "tsc",
-    "build": "npm run obf",
-    "obf": "node obfuscate.js",
     "test": "jest",
     "coverage": "jest --coverage",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "publish-version": "npm run-script build && npm publish --access public"
   },
-  "author": "HBashanaE",
+  "author": "RTL",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.20",
@@ -36,5 +35,16 @@
     "dist",
     "package.json",
     "Readme.md"
-  ]
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RadicalLedger/zedeid-hdk-wallet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RadicalLedger/zedeid-hdk-wallet/issues"
+  },
+  "homepage": "https://github.com/RadicalLedger/zedeid-hdk-wallet#readme"
 }
