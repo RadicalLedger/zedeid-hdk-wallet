@@ -1,18 +1,13 @@
-# did-hd-wallet
+# zedeid-hdk-wallet #
 
-A wrapper package of bip32 and bip39 to generate ethr decentralized IDs
-
-## Inastallation
-
-1. Clone repository
-2. run *npm run build* 
-3. npm install < local repository directory >
+A wrapper package of bip32 and bip39 to generate ethr decentralized IDs deterministically
+Also available via: https://cdn.jsdelivr.net/npm/@zedeid-sdk/zedeid-hdk-wallet/dist/browser/zedeid-hdk-wallet.js
 
 ## Usage
 
 ### generateMnemonic
 
-import { generateMnemonic } from 'did-hd-wallet';
+import { generateMnemonic } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 generate random mnemonic.
 
@@ -26,7 +21,7 @@ generate random mnemonic.
 
 ### validateMnemonic
 
-import { validateMnemonic } from 'did-hd-wallet';
+import { validateMnemonic } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 validate mnemonic string.
 
@@ -41,7 +36,7 @@ validate mnemonic string.
 
 ### getSeedFromMnemonic
 
-import { getSeedFromMnemonic } from 'did-hd-wallet';
+import { getSeedFromMnemonic } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get seed from mnemonic words.
 
@@ -55,7 +50,7 @@ get seed from mnemonic words.
 
 ### publicKeyToETH
 
-import { publicKeyToETH } from 'did-hd-wallet';
+import { publicKeyToETH } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get ethereum address of a public key.
 
@@ -70,7 +65,7 @@ get ethereum address of a public key.
 
 ### getDID
 
-import { getDID } from 'did-hd-wallet';
+import { getDID } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get ethereum decentralized id of an Ethereum address.
 
@@ -84,7 +79,7 @@ get ethereum decentralized id of an Ethereum address.
 
 ### createRandomETHDID
 
-import { createRandomETHDID } from 'did-hd-wallet';
+import { createRandomETHDID } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 generate random Ethereum address.
 
@@ -98,7 +93,7 @@ none
 
 ### createETHDIDFromPrivateKey
 
-import { createETHDIDFromPrivateKey } from 'did-hd-wallet';
+import { createETHDIDFromPrivateKey } from '@zedeid-sdk/zedeid-hdk-wallet';
 
 get ethereum address from a private key.
 
@@ -112,7 +107,7 @@ get ethereum address from a private key.
 
 ### Wallet Class
 
-import Wallet from 'did-hd-wallet';
+import Wallet from '@zedeid-sdk/zedeid-hdk-wallet';
 
 #### Public methods
 
