@@ -1,6 +1,6 @@
 {
   "name": "@zedeid-sdk/zedeid-hdk-wallet",
-  "version": "0.0.9-1",
+  "version": "1.0.0",
   "description": "Package to generate decentralized IDs deterministically",
   "main": "dist/node/index.js",
   "browser": "dist/browser/zedeid-hdk-wallet.js",

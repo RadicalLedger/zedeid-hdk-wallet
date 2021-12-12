@@ -1,6 +1,7 @@
 # zedeid-hdk-wallet #
 
 A wrapper package of bip32 and bip39 to generate ethr decentralized IDs deterministically
+Also available via: https://cdn.jsdelivr.net/npm/@zedeid-sdk/zedeid-hdk-wallet/dist/browser/zedeid-hdk-wallet.js
 
 ## Usage
 
