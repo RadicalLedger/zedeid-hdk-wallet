@@ -2,12 +2,6 @@
 
 A wrapper package of bip32 and bip39 to generate key decentralized IDs
 
-## Inastallation
-
-1. Clone repository
-2. run _npm run build_
-3. npm install < local repository directory >
-
 ## Usage
 
 ### generateMnemonic
