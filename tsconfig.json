@@ -1,8 +1,5 @@
 {
     "compilerOptions": {
-        "typeRoots": [
-            "src/types"
-        ],
         "module": "commonjs",
         "esModuleInterop": true,
         "target": "es2017",
@@ -27,15 +24,14 @@
         "declaration": true,
         "outDir": "dist",
         "baseUrl": ".",
-        "paths": {
-            "*": [
-                "node_modules/*",
-                "src/types/*"
-            ]
-        }
+    },
+    "paths": {
+        "*": [
+            "node_modules/*",
+            "src/types/*"
+        ]
     },
     "include": [
         "src",
-        "src/types"
     ]
 }
