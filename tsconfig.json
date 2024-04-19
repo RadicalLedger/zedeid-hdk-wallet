@@ -23,7 +23,7 @@
         "sourceMap": true,
         "declaration": true,
         "outDir": "dist",
-        "baseUrl": ".",
+        "baseUrl": "."
     },
     "paths": {
         "*": [
@@ -33,5 +33,6 @@
     },
     "include": [
         "src",
+        "src/types"
     ]
 }
