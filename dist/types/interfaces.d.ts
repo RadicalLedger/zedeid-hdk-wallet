@@ -1,12 +1,10 @@
-import { BIP32Interface } from 'bip32';
-
-declare interface DidDocumentInterface {
+interface DidDocumentInterface {
     '@context': Object | string;
     id: string;
     [x: string | symbol]: string;
 }
 
-declare interface KeysInterface {
+interface KeysInterface {
     did: string;
     address: string;
     privateKey: string;
@@ -15,15 +13,15 @@ declare interface KeysInterface {
     didDocument: DidDocumentInterface;
 }
 
-declare interface CreateDidDocumentInterface {
+interface CreateDidDocumentInterface {
     didDocument: DidDocumentInterface;
 }
 
-declare interface VerificationKeyInterface {
+interface VerificationKeyInterface {
     [x: string | symbol]: any;
 }
 
-declare interface MethodInterface {
+interface MethodInterface {
     getKeys(node: BIP32Interface): Promise<KeysInterface>;
     getDocument(privateKey: string): Promise<CreateDidDocumentInterface>;
     createVerificationMethod(

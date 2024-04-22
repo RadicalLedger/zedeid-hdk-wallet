@@ -19,20 +19,19 @@
         "listFiles": false,
         "noEmitOnError": true,
         "moduleResolution": "node",
-        "skipLibCheck": true,
         "sourceMap": true,
         "declaration": true,
         "outDir": "dist",
-        "baseUrl": "."
-    },
-    "paths": {
-        "*": [
-            "node_modules/*",
-            "src/types/*"
-        ]
+        "baseUrl": ".",
+        "skipLibCheck": true,
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        }
     },
     "include": [
-        "src",
-        "src/types"
+        "src/**/*"
     ]
 }

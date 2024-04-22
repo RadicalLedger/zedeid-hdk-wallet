@@ -35,14 +35,14 @@
         "lint-staged": "13.0.3",
         "prettier": "^3.2.5",
         "ts-jest": "^29.1.2",
-        "typescript": "^5.4.2"
+        "typescript": "^5.4.2",
+        "zedeid-did-method-ethr": "https://github.com/RadicalLedger/zedeid-did-method-ethr.git",
+        "zedeid-did-method-moon": "https://github.com/RadicalLedger/zedeid-did-method-moon.git"
     },
     "dependencies": {
         "@bitcoinerlab/secp256k1": "^1.1.1",
         "bip32": "^4.0.0",
         "bip39": "^3.1.0",
-        "zedeid-did-method-ethr": "https://github.com/RadicalLedger/zedeid-did-method-ethr.git",
-        "zedeid-did-method-key": "https://github.com/RadicalLedger/zedeid-did-method-key.git",
-        "zedeid-did-method-moon": "https://github.com/RadicalLedger/zedeid-did-method-moon.git"
+        "zedeid-did-method-key": "https://github.com/RadicalLedger/zedeid-did-method-key.git"
     }
 }

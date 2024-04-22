@@ -1,6 +1,5 @@
 /// <reference types="node" />
 import { BIP32Interface } from 'bip32';
-import { KeysInterface, MethodInterface } from './types/types';
 export default class Wallet {
     private bip32;
     private method;
