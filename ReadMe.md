@@ -21,7 +21,7 @@ yarn test or npm run test
 Here's an example of how to use the Wallet class:
 
 ```ts
-import Wallet from 'zedeid-hdk-wallet-core';
+import Wallet from 'zedeid-hdk-wallet';
 import KeyMethod from 'zedeid-did-method-key';
 
 const wallet = new Wallet(KeyMethod);
