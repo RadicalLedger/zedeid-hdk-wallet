@@ -1,7 +1,7 @@
 {
     "name": "did-hd-wallet",
     "description": "Package to generate decentralized IDs deterministically",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
     "scripts": {
@@ -27,22 +27,26 @@
         }
     },
     "devDependencies": {
-        "@types/jest": "^29.5.12",
-        "@types/node": "^20.11.25",
+        "@types/jest": "^30.0.0",
+        "@types/node": "^24.0.10",
         "cpx": "^1.5.0",
-        "husky": "8.0.1",
-        "jest": "^29.7.0",
-        "lint-staged": "13.0.3",
-        "prettier": "^3.2.5",
-        "ts-jest": "^29.1.2",
-        "typescript": "^5.4.2",
+        "husky": "9.1.7",
+        "jest": "^30.0.4",
+        "lint-staged": "16.1.2",
+        "prettier": "^3.6.2",
+        "ts-jest": "^29.4.0",
+        "typescript": "^5.8.3",
+        "zedeid-did-method-moon": "https://github.com/RadicalLedger/zedeid-did-method-moon.git",
         "zedeid-did-method-ethr": "https://github.com/RadicalLedger/zedeid-did-method-ethr.git",
-        "zedeid-did-method-moon": "https://github.com/RadicalLedger/zedeid-did-method-moon.git"
+        "zedeid-did-method-web": "https://github.com/RadicalLedger/zedeid-did-method-web.git"
     },
     "dependencies": {
-        "@bitcoinerlab/secp256k1": "^1.1.1",
+        "@bitcoinerlab/secp256k1": "^1.2.0",
         "bip32": "^4.0.0",
         "bip39": "^3.1.0",
         "zedeid-did-method-key": "https://github.com/RadicalLedger/zedeid-did-method-key.git"
+    },
+    "engines": {
+        "node": ">=16.0.0 <21.0.0"
     }
 }

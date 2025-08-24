@@ -1,4 +1,3 @@
-/// <reference types="node" />
 import { BIP32Interface } from 'bip32';
 export default class Wallet {
     private bip32;
